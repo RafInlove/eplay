@@ -1,6 +1,6 @@
-import styled from 'styled-components'
-import { cores } from '../../styles'
-import { TagContainer } from '../tag/styles'
+import styled from 'styled-components';
+import { cores } from '../../styles';
+import { TagContainer } from '../tag/styles';
 
 export const Img = styled.div`
   width: 100%;
@@ -23,14 +23,14 @@ export const Img = styled.div`
     position: absolute;
     top: -320px;
   }
-`
+`;
 
 export const Title = styled.h2`
   font-size: 36px;
   font-weigth: bold;
   max-width: 450px;
   text-shadow: 2px 1px 0px black;
-`
+`;
 
 export const StyledP = styled.p`
   font-weight: bold;
@@ -41,4 +41,4 @@ export const StyledP = styled.p`
   span {
     text-decoration: line-throught;
   }
-`
+`;

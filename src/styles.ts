@@ -1,12 +1,12 @@
-import styled, { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components';
 
 export const cores = {
   branca: '#fff',
   preto: '#111',
   rosaBege: '#e4bfb4',
   verde: '#10AC84',
-  azulBebe: '#63d5ff'
-}
+  azulBebe: '#63d5ff',
+};
 
 export const GlobalCss = createGlobalStyle`
   * {
@@ -28,4 +28,4 @@ export const GlobalCss = createGlobalStyle`
   width: 100%;
   margin: 0 auto;
   }
-`
+`;

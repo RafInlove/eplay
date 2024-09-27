@@ -1,11 +1,11 @@
-import Water from '../../assets/water.jpg'
-import { Tag } from '../tag'
-import { Card, Description, Title, Infos } from './styles'
+import Water from '../../assets/water.jpg';
+import { Tag } from '../tag';
+import { Card, Description, Title, Infos } from './styles';
 
 type Props = {
-  infos: string[]
-  title: string
-}
+  infos: string[];
+  title: string;
+};
 
 export const Product = ({ infos, title }: Props) => (
   <Card>
@@ -24,4 +24,4 @@ export const Product = ({ infos, title }: Props) => (
       ipsa voluptate saepe consectetur numquam amet.
     </Description>
   </Card>
-)
+);

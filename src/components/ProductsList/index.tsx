@@ -1,10 +1,10 @@
-import { Product } from '../Product'
-import { Container, List } from './styles'
+import { Product } from '../Product';
+import { Container, List } from './styles';
 
 type Props = {
-  title: string
-  background: 'gray' | 'black'
-}
+  title: string;
+  background: 'gray' | 'black';
+};
 
 export const ProductsList = ({ background, title }: Props) => (
   <Container>
@@ -16,4 +16,4 @@ export const ProductsList = ({ background, title }: Props) => (
       </List>
     </div>
   </Container>
-)
+);

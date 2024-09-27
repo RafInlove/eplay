@@ -1,15 +1,15 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import { GlobalCss } from './styles'
-import { Header } from './components/header'
-import { Home } from './pages/Home'
+import { GlobalCss } from './styles';
+import { Header } from './components/header';
+import { Home } from './pages/Home';
 
 const rotas = createBrowserRouter([
   {
     path: '/',
-    element: <Home />
-  }
-])
+    element: <Home />,
+  },
+]);
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       </div>
       <RouterProvider router={rotas} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

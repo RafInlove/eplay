@@ -1,6 +1,6 @@
-import { HeaderBar, Links, LinkItem, LinkCart } from './styles'
-import logo from '../../assets/take-a-bath-svgrepo-com.svg'
-import cart from '../../assets/cart.png'
+import { HeaderBar, Links, LinkItem, LinkCart } from './styles';
+import logo from '../../assets/take-a-bath-svgrepo-com.svg';
+import cart from '../../assets/cart.png';
 
 export const Header = () => (
   <HeaderBar>
@@ -26,4 +26,4 @@ export const Header = () => (
       <img src={cart} />
     </LinkCart>
   </HeaderBar>
-)
+);

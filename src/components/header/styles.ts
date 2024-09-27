@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { cores } from '../../styles'
+import styled from 'styled-components';
+import { cores } from '../../styles';
 
 export const HeaderBar = styled.header`
   display: flex;
@@ -21,16 +21,16 @@ export const HeaderBar = styled.header`
     display: flex;
     align-items: center;
   }
-`
+`;
 
 export const Links = styled.ul`
   display: flex;
   margin-left: 40px;
-`
+`;
 
 export const LinkItem = styled.li`
   margin-right: 16px;
-`
+`;
 
 export const LinkCart = styled.a`
   display: flex;
@@ -38,4 +38,4 @@ export const LinkCart = styled.a`
   img {
     margin-left: 16px;
   }
-`
+`;
