@@ -5,26 +5,25 @@ import cart from '../../assets/cart.png'
 export const Header = () => (
   <HeaderBar>
     <div>
-    <img src={logo} width="50px"/>
+      <img src={logo} width="50px" />
 
-<nav>
-  <Links>
-    <LinkItem>
-      <a href="">Buy</a>
-    </LinkItem>
-    <LinkItem>
-      <a href="">Info</a>
-    </LinkItem>
-    <LinkItem>
-      <a href="">It is healthy?</a>
-    </LinkItem>
-  </Links>
-</nav>
+      <nav>
+        <Links>
+          <LinkItem>
+            <a href="">Buy</a>
+          </LinkItem>
+          <LinkItem>
+            <a href="">Info</a>
+          </LinkItem>
+          <LinkItem>
+            <a href="">It is healthy?</a>
+          </LinkItem>
+        </Links>
+      </nav>
     </div>
-    <LinkCart href=''>
+    <LinkCart href="">
       0 - produto(s)
       <img src={cart} />
     </LinkCart>
   </HeaderBar>
 )
-

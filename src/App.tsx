@@ -11,15 +11,14 @@ const rotas = createBrowserRouter([
   }
 ])
 
-
 function App() {
   return (
     <>
       <GlobalCss />
-        <div className='container'>
-          <Header />
-        </div>
-        <RouterProvider router={rotas}/>
+      <div className="container">
+        <Header />
+      </div>
+      <RouterProvider router={rotas} />
     </>
   )
 }

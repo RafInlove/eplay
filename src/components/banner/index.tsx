@@ -8,10 +8,10 @@ export const Banner = () => (
     <div className="container">
       <Tag size="big">New offers!</Tag>
       <div>
-      <Title>Belle Delphine's Bath Water</Title>
-      <StyledP>
-        Get it now! <span>She knows you want it :P</span>
-      </StyledP>
+        <Title>Belle Delphine's Bath Water</Title>
+        <StyledP>
+          Get it now! <span>She knows you want it :P</span>
+        </StyledP>
       </div>
       <Button type="link" to="/produto" title="Click get descount">
         Get Offer

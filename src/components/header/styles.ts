@@ -2,40 +2,40 @@ import styled from 'styled-components'
 import { cores } from '../../styles'
 
 export const HeaderBar = styled.header`
-display: flex;
-align-items: center;
-background-color: ${cores.rosaBege};
-padding: 24px;
-border-radius: 16px;
-margin-bottom: 80p;
-margin-top: 10px;
-justify-content: space-between;
+  display: flex;
+  align-items: center;
+  background-color: ${cores.rosaBege};
+  padding: 24px;
+  border-radius: 16px;
+  margin-bottom: 80p;
+  margin-top: 10px;
+  justify-content: space-between;
 
-a {
-color: ${cores.branca};
-text-decoration: none;
-font-weight: bold;
-}
+  a {
+    color: ${cores.branca};
+    text-decoration: none;
+    font-weight: bold;
+  }
 
-div {
-display: flex;
-align-items: center;
-}
+  div {
+    display: flex;
+    align-items: center;
+  }
 `
 
 export const Links = styled.ul`
-display: flex;
-margin-left: 40px;
+  display: flex;
+  margin-left: 40px;
 `
 
 export const LinkItem = styled.li`
-margin-right: 16px;
+  margin-right: 16px;
 `
 
 export const LinkCart = styled.a`
-display: flex;
+  display: flex;
 
-img {
-margin-left: 16px
-}
+  img {
+    margin-left: 16px;
+  }
 `

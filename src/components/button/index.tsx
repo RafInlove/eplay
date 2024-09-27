@@ -1,4 +1,4 @@
-import { ButtonContainer, ButtonLink } from "./styles"
+import { ButtonContainer, ButtonLink } from './styles'
 
 type Props = {
   type: 'button' | 'link'
